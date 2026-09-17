@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Day Trader Telugu</title>
+<title>trade with sudarshan</title>
 
-<!-- ✅ Meta Pixel -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,115 +14,165 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '1504854344575594'); 
+fbq('init', '1420486776610137');
 fbq('track', 'PageView');
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1504854344575594&ev=PageView&noscript=1"/>
-</noscript>
-
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1420486776610137&ev=PageView&noscript=1"
+/></noscript>
 <style>
-*{box-sizing:border-box;margin:0;padding:0;}
-
-body{
-font-family:Arial;
-background:linear-gradient(135deg,#020617,#0f172a);
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
+/* CSS Reset and Body Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.container{
-width:380px;
-background:#111827;
-border-radius:25px;
-padding:30px;
-text-align:center;
-box-shadow:0 10px 40px rgba(0,0,0,0.8);
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
 }
 
-.logo{
-width:110px;
-height:110px;
-border-radius:100px;
-margin-bottom:15px;
-animation:float 3s ease-in-out infinite;
+/* Main Container with Glowing Border */
+.container {
+    width: 100%;
+    max-width: 450px;
+    background-color: #0d1117;
+    border: 2px solid #00c6ff;
+    border-radius: 30px;
+    padding: 40px 25px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 198, 255, 0.4); /* Cyan glow */
 }
 
-@keyframes float{
-0%{transform:translateY(0)}
-50%{transform:translateY(-12px)}
-100%{transform:translateY(0)}
+/* Rounded Profile Image */
+.logo {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #00c6ff;
+    margin-bottom: 25px;
 }
 
-h1{font-size:26px;margin-bottom:5px;}
-
-.badge{
-background:linear-gradient(45deg,#ff512f,#ff9966);
-padding:12px 20px;
-border-radius:30px;
-display:inline-block;
-margin:15px 0;
-font-weight:bold;
+/* Section Titles */
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
 }
 
-.telegram-btn{
-display:block;
-margin:20px 0;
-padding:18px;
-border-radius:50px;
-background:linear-gradient(90deg,#00c6ff,#0072ff);
-color:white;
-font-weight:bold;
-font-size:18px;
-text-decoration:none;
-animation:glow 1.5s infinite;
+/* Feature List Styles */
+.features-list {
+    text-align: left;
+    margin-bottom: 35px;
+    list-style: none;
+    padding: 0 10px;
 }
 
-@keyframes glow{
-0%{box-shadow:0 0 5px #00c6ff;}
-50%{box-shadow:0 0 25px #00c6ff;}
-100%{box-shadow:0 0 5px #00c6ff;}
+.features-list li {
+    font-size: 16px;
+    color: #a1a1a1; /* Dim grey for subtext */
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 1.4;
 }
 
-.text{margin-top:15px;line-height:1.7;font-size:16px;}
-
-.highlight{color:#ff6b6b;font-weight:bold;}
-
-.profit{
-color:#ffd700;
-font-size:20px;
-margin:20px 0;
-font-weight:bold;
+/* Specific Icons (Using Emoji as placeholders) */
+.features-list li::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.features{
-margin-top:10px;
-text-align:left;
-line-height:2;
-font-size:15px;
+/* Placeholder for specific icons from reference image */
+.features-list li.icon-globe::before { content: '🌐'; font-size: 20px; }
+.features-list li.icon-chart::before { content: '📊'; font-size: 20px; }
+.features-list li.icon-diamond::before { content: '💎'; font-size: 20px; }
+.features-list li.icon-book::before { content: '📖'; font-size: 20px; }
+
+/* Main Gradient Button */
+.telegram-btn {
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border-radius: 50px;
+    /* Specific Blue to Purple Gradient */
+    background: linear-gradient(135deg, #2af5ef 0%, #009efd 30%, #b721ff 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(183, 33, 255, 0.3);
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.dm-btn{
-display:block;
-margin-top:20px;
-padding:16px;
-border-radius:40px;
-background:linear-gradient(90deg,#22c55e,#16a34a);
-color:white;
-font-weight:bold;
-text-decoration:none;
+.telegram-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(183, 33, 255, 0.5);
 }
 
-.footer{
-margin-top:20px;
-font-size:13px;
-color:#9ca3af;
+/* Motivational Text in English */
+.hindi-quote {
+    font-size: 15px;
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    padding: 0 15px;
+}
+
+/* Advertisement Disclaimer Box */
+.ads-contact {
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 12px;
+    background-color: #161b22;
+    margin-bottom: 25px;
+    font-size: 13px;
+    color: #8b949e;
+}
+
+.ads-link {
+    color: #58a6ff; /* Standard 'link' blue */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.ads-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer (Terms, Privacy, Facebook disclaimer) */
+.footer {
+    font-size: 11px;
+    color: #586069;
+    line-height: 1.8;
+}
+
+.footer-links a {
+    color: #586069;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #8b949e;
 }
 </style>
 </head>
@@ -132,49 +181,42 @@ color:#9ca3af;
 
 <div class="container">
 
-<img src="logo.png" class="logo">
+    <img src="logo.png" alt="trade with sudarshan" class="logo">
 
-<h1>📈 Day Trader తెలుగు</h1>
-<div>💸🏆</div>
+    <h1>trade with sudarshan</h1>
 
-<div class="badge">🚀 17+ సంవత్సరాల ట్రేడింగ్ అనుభవం</div>
+    <ul class="features-list">
+        <li class="icon-globe">Learning & Educational Sessions</li>
+        <li class="icon-chart">Market Concepts & Awareness</li>
+        <li class="icon-diamond">Chart Reading Concepts</li>
+        <li class="icon-book">Educational Case Discussions</li>
+    </ul>
 
-<div>👇👇👇</div>
+    <p style="font-size: 14px; color: #a1a1a1; margin-bottom: 15px;">
+        Join our learning community and grow your knowledge
+    </p>
 
-<!-- MAIN TELEGRAM -->
-<a class="telegram-btn" href="https://t.me/+Sj2_CV1i9-YyNWU1" target="_blank"
-onclick="fbq('track','Lead');">
-JOIN TELEGRAM CHANNEL
-</a>
+    <a href="https://t.me/+NfnJrIs_AvY5NjM1" class="telegram-btn">
+        Join Telegram
+    </a>
 
-<div class="text">
-మీరు ట్రేడింగ్ ద్వారా డబ్బు సంపాదించాలనుకుంటున్నారా?<br><br>
-<span class="highlight">
-అయితే పై టెలిగ్రామ్ బటన్ పై క్లిక్ చేయండి 🚀
-</span>
-</div>
+    <p class="hindi-quote">
+        When intentions are good and hard work is true, success is guaranteed.
+    </p>
 
-<div class="profit">
-💎 DAILY PROFIT GUARANTEE 💎
-</div>
+    <div class="ads-contact">
+        <span style="margin-right: 5px;">This Channel Advertise By</span>
+        <a href="</a>
+    </div>
 
-<div class="features">
-📊 మా పోర్ట్‌ఫోలియో నుండి లైవ్ ట్రేడ్స్<br>
-🔥 ప్రొఫెషనల్స్ వాడే సిగ్నల్స్<br>
-💯 హై అక్యూరసీ & కన్సిస్టెన్సీ<br>
-⚡ రియల్ టైమ్ అప్డేట్స్
-</div>
-
-<!-- 🔥 UPDATED DM LINK -->
-<a class="dm-btn" href="https://t.me/+jE7sEbzR23gwM2U1" target="_blank"
-onclick="fbq('track','Contact');">
-👉 Meta Ads Setup కోసం DM చేయండి  
-<br> Kunal Ads Agency
-</a>
-
-<div class="footer">
-©️ 2026 Day Trader Telugu - All rights reserved
-</div>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="#">Terms</a> | <a href="#">Privacy</a> | <a href="#">Disclaimer</a>
+        </div>
+        <div style="margin-top: 5px;">
+            This site is not part of Facebook™️ or endorsed by Facebook™️.
+        </div>
+    </div>
 
 </div>
 
